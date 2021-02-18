@@ -13,3 +13,5 @@ UserParameter=cons_lic[*],C:\Python\Python38\python.exe "C:\Zabbix\plugins\check
 UserParameter=cons_lic_ltd[*],C:\Python\Python38\python.exe "C:\Zabbix\plugins\opensessions.py" $1
 
 6. Добавить хост и элементы в панели мониторинга Zabbix
+
+Подробное описание: https://www.k7d.ru/programmirovanie/zanyatye-litsenzii-intranet-versii-konsultant-v-zabbix/#more-1087
