@@ -14,4 +14,4 @@ UserParameter=cons_lic_ltd[*],C:\Python\Python38\python.exe "C:\Zabbix\plugins\o
 
 6. Добавить хост и элементы в панели мониторинга Zabbix
 
-Подробное описание: https://www.k7d.ru/programmirovanie/zanyatye-litsenzii-intranet-versii-konsultant-v-zabbix/#more-1087
+Подробное описание: https://www.k7d.ru/programmirovanie/zanyatye-litsenzii-intranet-versii-konsultant-v-zabbix/
