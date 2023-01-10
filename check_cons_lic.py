@@ -4,9 +4,7 @@ import re
 
 bufsize = 8192
 cfile = 'C:\inetpub\wwwroot\cons\system\srvprot.txt'
-#lines = int(sys.argv[1])
 lines = 1
-#fname = sys.argv[2]
 fsize = os.stat(cfile).st_size
 
 iter = 0
@@ -19,7 +17,7 @@ with open(cfile) as f:
         f.seek(fsize-bufsize*iter)
         data.extend(f.readlines())
         if len(data) >= lines or f.tell() == 0:
-            result = re.search('\s[0-9]{2,3}\s',''.join(data[-lines:]))
-            res = re.search('[0-9]{2,3}',result[0])
-            print(res[0])
+            line=''.join(data[-lines:])
+            res=line.split()
+            print(int(res[5]))
             break
